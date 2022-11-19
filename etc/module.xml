@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @description Reset database
+ *
+ * @author Bina Commerce      <https://www.binacommerce.com>
+ * @author C. M. de Picciotto <cmdepicciotto@binacommerce.com>
+ *
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Bina_ResetDatabase"/>
+</config>

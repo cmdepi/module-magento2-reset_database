@@ -1,0 +1,27 @@
+{
+    "name": "bina/module-reset-database",
+    "description": "Reset database",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "homepage": "https://www.binacommerce.com",
+    "authors": [
+        {
+            "name": "C. M. de Picciotto",
+            "email": "cmdepicciotto@binacommerce.com",
+            "homepage": "https://www.binacommerce.com",
+            "role": "Leader"
+        }
+    ],
+    "require": {
+        "php": "~7.0.13||~7.1.0||~7.2.0||~7.3.0||~7.4.0",
+        "magento/framework": "~101.0||~102.0||~103.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bina\\ResetDatabase\\": ""
+        }
+    }
+}
